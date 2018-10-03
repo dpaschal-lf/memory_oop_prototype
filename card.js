@@ -30,10 +30,13 @@ class Card{
 	render(){ //render out the dom element and return it
 		/*
 		<div class="card">
-			<div class="front"></div>
-			<div class="back"></div>
+			<div class="front" style="background-image:url(front.jpg)"></div>
+			<div class="back" style="background-image:url(back.jpg)"></div>
 		</div>
 		*/
+		//make the card, back, and front dom elements
+		//add a click handler onto the card dom element.  attach the handleClick method.
+		//don't forget to bind the handleClick method to this card object!
 		//store each part into the domElements property, 
 		//take the front image from the data and use it as a background image of the front element
 		//take the backFace property and use it as a background image of the back element

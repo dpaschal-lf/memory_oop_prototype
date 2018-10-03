@@ -36,6 +36,7 @@ class MemoryMatch{
 		}
 	}
 	handleChildCardClick( cardObject ){
+		console.log( 'click called on ', cardObject);
 		if(cardObject.isRevealed()){
 			return;
 		}
