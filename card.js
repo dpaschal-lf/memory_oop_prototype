@@ -1,6 +1,6 @@
 
 
-class Card(dataForThisCard, clickHandlerCallback){
+class Card{
 	constructor( cardData, clickCallback ){
 		this.revealed = false;
 	}
@@ -8,7 +8,7 @@ class Card(dataForThisCard, clickHandlerCallback){
 		return this.revealed;
 	}
 	handleClick(){
-		
+
 	}
 	reveal(){
 

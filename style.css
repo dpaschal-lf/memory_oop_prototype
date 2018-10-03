@@ -1,1 +1,39 @@
-style.css
+body{
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+#stats{
+	width: 15%;
+	background-color: lightblue;
+}
+#gameArea{
+	width: 85%;
+	background-color: blue;
+}
+.card{
+	width: 16.6%;
+	height: 33.33%;
+	position: relative;
+}
+.front, .back{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.front{
+	background-position: center top;
+}
+.back{
+	background-position: center;
+}
